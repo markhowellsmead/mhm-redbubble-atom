@@ -10,7 +10,7 @@ Author URI: https://sayhello.ch/
 
 namespace MarkHowellsMead;
 
-add_shortcode('redbubble', function($atts){
+add_shortcode('redbubble', function ($atts) {
 
 	require_once('src/AtomParser/AtomParser.php');
 
@@ -19,5 +19,4 @@ add_shortcode('redbubble', function($atts){
 	$parser = new AtomParser($url);
 
 	return $parser->getFrom($url);
-
 });
