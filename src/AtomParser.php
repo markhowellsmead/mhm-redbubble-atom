@@ -1,6 +1,6 @@
 <?php
 
-namespace MarkHowellsMead;
+namespace MarkHowellsMead\RedbubbleAtom;
 
 use SimpleXMLElement;
 use stdClass;
